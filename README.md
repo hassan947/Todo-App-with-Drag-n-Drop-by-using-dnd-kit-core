@@ -1,8 +1,13 @@
 
 ## 🧩 Drag & Drop Task Manager — Modern `@dnd-kit/core` (Mobile Supported)
 
-
-https://github.com/user-attachments/assets/790407dc-091f-4826-a604-5890dda99589
+<video src="https://github.com/user-attachments/assets/790407dc-091f-4826-a604-5890dda99589" 
+       controls 
+       autoplay 
+       muted 
+       loop 
+       style="border-radius: 10px; width: 100%; max-width: 700px;">
+</video>
 
 A lightweight **React Task Manager** using **@dnd-kit/core**, with full **desktop and mobile** drag-and-drop support.  
 Drag tasks seamlessly between columns — *To-Do, Doing, and Done* — with smooth animations and intuitive gestures.
