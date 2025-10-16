@@ -1,0 +1,89 @@
+.container {
+  text-align: center;
+  padding: 35px 0px 10px 0px;
+}
+.head-content {
+  width: 100%;
+  padding-bottom: 28px;
+}
+.Task-item {
+  padding: 0px 5px 0px 5px;
+}
+.Task-item > input {
+  height: 35px;
+  margin-top: 20px;
+  width: 250px;
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid lightgrey;
+}
+.Task-item > input::placeholder {
+  text-align: center !important;
+}
+.board {
+  width: 100%;
+  display: flex;
+  /* margin-top: 28px; */
+  column-gap: 5px;
+}
+.todo {
+  width: 33%;
+  margin-left: 0.5%;
+  height: 450px;
+}
+.col-todo {
+  background-color: beige;
+  padding: 5px;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.doing {
+  width: 33%;
+  height: 450px;
+}
+.col-doing {
+  background-color: lightskyblue;
+  padding: 5px;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.done {
+  width: 33%;
+  margin-right: 0.5%;
+  height: 450px;
+}
+.col-done {
+  background-color: lightgreen;
+  padding: 5px;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.task-item {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 8px 1px 12px;
+  border: 1px solid lightgrey;
+  width: 98%;
+  border-radius: 7px;
+  font-size: 20px;
+  align-items: center;
+}
+.btn {
+  margin: 1.7px;
+  padding: 4px;
+  border-radius: 50%;
+  cursor: pointer !important;
+}
+.btn:hover {
+  background-color: rgb(238, 237, 237);
+}
+.btn-item {
+  width: 80px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.heading {
+  margin-bottom: 1px;
+}
